@@ -1,0 +1,4 @@
+train2n(train_n en drive)= acc test= 0.65
+train3s= acc test =0.67
+train4m= acc=0.67
+train6_l=acc test=0.7

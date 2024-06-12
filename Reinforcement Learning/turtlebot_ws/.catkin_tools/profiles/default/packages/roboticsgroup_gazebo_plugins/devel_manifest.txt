@@ -1,0 +1,7 @@
+open_manipulator_dependencies/roboticsgroup_gazebo_plugins
+/home/turtlepc/turtlebot_ws/devel/.private/roboticsgroup_gazebo_plugins/cmake.lock /home/turtlepc/turtlebot_ws/devel/./cmake.lock
+/home/turtlepc/turtlebot_ws/devel/.private/roboticsgroup_gazebo_plugins/share/roboticsgroup_gazebo_plugins/cmake/roboticsgroup_gazebo_pluginsConfig-version.cmake /home/turtlepc/turtlebot_ws/devel/share/roboticsgroup_gazebo_plugins/cmake/roboticsgroup_gazebo_pluginsConfig-version.cmake
+/home/turtlepc/turtlebot_ws/devel/.private/roboticsgroup_gazebo_plugins/share/roboticsgroup_gazebo_plugins/cmake/roboticsgroup_gazebo_pluginsConfig.cmake /home/turtlepc/turtlebot_ws/devel/share/roboticsgroup_gazebo_plugins/cmake/roboticsgroup_gazebo_pluginsConfig.cmake
+/home/turtlepc/turtlebot_ws/devel/.private/roboticsgroup_gazebo_plugins/lib/libroboticsgroup_gazebo_disable_link_plugin.so /home/turtlepc/turtlebot_ws/devel/lib/libroboticsgroup_gazebo_disable_link_plugin.so
+/home/turtlepc/turtlebot_ws/devel/.private/roboticsgroup_gazebo_plugins/lib/libroboticsgroup_gazebo_mimic_joint_plugin.so /home/turtlepc/turtlebot_ws/devel/lib/libroboticsgroup_gazebo_mimic_joint_plugin.so
+/home/turtlepc/turtlebot_ws/devel/.private/roboticsgroup_gazebo_plugins/lib/pkgconfig/roboticsgroup_gazebo_plugins.pc /home/turtlepc/turtlebot_ws/devel/lib/pkgconfig/roboticsgroup_gazebo_plugins.pc
