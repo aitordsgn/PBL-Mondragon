@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<robot name="goal_marker" xmlns:xacro="http://ros.org/wiki/xacro">
+  <link name="goal_marker_link">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>  <!-- Tamaño del cubo -->
+      </geometry>
+      <material>
+        <color rgba="1 0 0 1"/>  <!-- Color rojo -->
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+  </link>
+  <gazebo>
+    <plugin name="ignore_collision_plugin" filename="libgazebo_ros_api_plugin.so">
+      <robotNamespace>/goal_marker</robotNamespace>
+      <rosDebugLevel>none</rosDebugLevel>
+      <ignition gazebo_ros_api_plugin="">
+        <topic>/goal_marker_link/cmd_vel</topic>
+      </ignition>
+    </plugin>
+  </gazebo>
+</robot>
+

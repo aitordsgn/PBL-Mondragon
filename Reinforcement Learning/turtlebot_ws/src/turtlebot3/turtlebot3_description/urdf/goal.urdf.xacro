@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<robot name="goal_marker" xmlns:xacro="http://ros.org/wiki/xacro">
+  <link name="goal_marker_link">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>  <!-- Tamaño del cubo -->
+      </geometry>
+      <material>
+        <color rgba="1 0 0 0.5"/>  <!-- Color rojo con 50% de transparencia -->
+      </material>
+    </visual>
+  </link>
+</robot>
+
